@@ -13,6 +13,15 @@ pip install google-antigravity
 
 ## Quickstart
 
+Get started by running one of the [`examples/`](examples/), such as the
+`hello_world` example with:
+
+```sh
+export GEMINI_API_KEY="your_api_key_here"
+python ./examples/getting_started/hello_world.py
+```
+## Concepts
+
 ### Simple Agent
 
 The `Agent` class is the easiest way to get started. It manages the full
@@ -265,16 +274,6 @@ For more detailed documentation on specific components, see:
 -   [MCP](mcp/README.md) — Model Context Protocol integration.
 -   [Tools](tools/README.md) — In-process tool execution.
 -   [Triggers](triggers/README.md) — Background tasks and external events.
-
-## Examples
-
-See the [`examples/`](examples/) directory for complete, runnable examples:
-
-- **Local connection** — custom tools, MCP, and policy hooks with
-  `LocalConnectionStrategy`
-- **MCP server** — example MCP server with "pirate math" tools
-- **Agent examples** — simple agent, custom tools + MCP, policies, hooks and
-  triggers
 
 ## License
 
